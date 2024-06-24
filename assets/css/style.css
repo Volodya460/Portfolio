@@ -297,6 +297,10 @@ h6 {
   line-height: 1;
   cursor: pointer;
   text-align: right;
+
+  @media screen and (max-width: 518px) {
+    margin-top: 10px;
+  }
 }
 
 .mobile-nav-toggle i {
