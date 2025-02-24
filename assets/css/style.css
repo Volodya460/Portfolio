@@ -1084,6 +1084,31 @@ section {
   opacity: 1;
 }
 
+.github-links {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 5px;
+}
+
+.github-links a {
+  font-size: 16px;
+  text-decoration: none;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  transition: 0.3s;
+
+  &:hover {
+    color: #47b2e4;
+  }
+}
+
+.github-links a i {
+  font-size: 20px;
+}
+
 /*--------------------------------------------------------------
 # Team
 --------------------------------------------------------------*/
